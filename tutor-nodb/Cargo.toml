@@ -3,7 +3,7 @@ name = "tutor-nodb"
 version = "0.1.0"
 edition = "2021"
 default-run = "tutor-service"
-authors = ["peshwar9","slotito"]
+authors = ["peshwar9","slowteetoe"]
 
 [[bin]]
 name = "basic-server"
