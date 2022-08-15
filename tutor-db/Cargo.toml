@@ -1,0 +1,20 @@
+[package]
+name = "tutor-db"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.1.0"
+actix-rt = "2.7.0"
+dotenv="0.15.0"
+sqlx = {version = "0.6.1", default_features = false, features=["postgres", "runtime-tokio-rustls", "macros", "chrono"]}
+
+serde = {version = "1.0.143", features = ["derive"]}
+
+chrono = {version = "0.4.22", features = ["serde"]}
+
+openssl = {version = "0.10.41", features=["vendored"]}
+
+derive_more = "0.99.17"
